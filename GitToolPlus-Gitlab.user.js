@@ -3,8 +3,8 @@
 // @name         GitToolPlus-Gitlab
 // @namespace    http://www.babytree.com/
 // @version      4.10.4
-// @updateURL    https://github.com/yxwmok/tool/raw/main/GitToolPlus-Gitlab.user.js
-// @downloadURL  https://github.com/yxwmok/tool/raw/main/GitToolPlus-Gitlab.user.js
+// @updateURL    https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
+// @downloadURL  https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
 // @description  Plus gitool!
 // @author       caoxinyu
 // @run-at       document-body
@@ -19,6 +19,7 @@
 // @connect      gitlab.babytree-inc.com
 // @connect      oapi.dingtalk.com
 // @connect      alljc.cc
+// @connect      ghproxy.com
 // ==/UserScript==
 (function () {
     'use strict';
@@ -57,7 +58,7 @@
             '/sql/new_task': true
         },
         userName = '',
-        dingRobotTokenUrl = 'https://alljc.cc/static/js/dingrobot.json',
+        dingRobotTokenUrl = 'https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/dingrobot.json',
         eventUrl = 'https://alljc.cc/index/gitool/event',
         getTaskListUrl = 'https://alljc.cc/index/gitool/lists',
         dingTokenList = {},
