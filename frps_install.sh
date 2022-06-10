@@ -1,7 +1,7 @@
 #!/bin/sh
 
 rm -rf /tmp/frps && mkdir /tmp/frps
-wget --no-check-certificate  -O /tmp/frps/frps.zip https://raw.githubusercontent.com/yxwmok/openclash/main/frps_install/frps.zip && unzip -o /tmp/frps/frps.zip -d /tmp/frps
+wget --no-check-certificate  -O /tmp/frps/frps.zip https://raw.githubusercontent.com/yxwmok/bbttool/main/frps_install/frps.zip && unzip -o /tmp/frps/frps.zip -d /tmp/frps
 sudo -s rm -rf /usr/local/frp && sudo -s mkdir /usr/local/frp
 sudo -s mv /tmp/frps/frps /usr/local/frp
 sudo -s chmod +x /usr/local/frp/frps
