@@ -2,9 +2,9 @@
 // @icon         http://pic04.babytreeimg.com/img/common/136x136.png
 // @name         GitToolPlus-Gitlab
 // @namespace    http://www.babytree.com/
-// @version      4.10.3
-// @updateURL    https://alljc.cc/static/js/GitToolPlus-Gitlab.user.js
-// @downloadURL  https://alljc.cc/static/js/GitToolPlus-Gitlab.user.js
+// @version      4.10.4
+// @updateURL    https://raw.githubusercontent.com/yxwmok/bbttool/main/GitToolPlus-Gitlab.user.js?token=GHSAT0AAAAAABT7XVSRDGEE3FOX2TRBP4NMYVDACYA
+// @downloadURL  https://raw.githubusercontent.com/yxwmok/bbttool/main/GitToolPlus-Gitlab.user.js?token=GHSAT0AAAAAABT7XVSRDGEE3FOX2TRBP4NMYVDACYA
 // @description  Plus gitool!
 // @author       caoxinyu
 // @run-at       document-body
