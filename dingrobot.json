@@ -1,0 +1,60 @@
+{
+  "update_js_token": "8bca80337379bb836cd513f4ccdd2800c441b9058b1a06df38960e434ca50cfa",
+  "new_task_token": "",
+  "start_test_token": "",
+  "update_test_token": "",
+  "update_test_pass_token": "",
+  "update_test_failed_token": "",
+  "release_pre_token": "",
+  "start_pre_test_token": "",
+  "update_pre_test_pass_token": "",
+  "update_pre_test_failed_token": "",
+  "release_online_token": "",
+  "rollback_online_token": "9e72cd34a2a68d01cce5c570b0d53565a900700b6195c5d793dcb163b1d134cb",
+  "notice_list": [
+    "4.9.11\n隐藏了Gitlab Token内容\n\n",
+    "4.9.12\n添加 任务列表显示测试环境\n\n"
+  ],
+  "new_notice_list": [
+    {
+      "version": "4.9.11",
+      "content": "4.9.11\n隐藏了Gitlab Token内容"
+    },
+    {
+      "version": "4.9.12",
+      "content": "4.9.12\n添加 任务列表显示测试环境"
+    },
+    {
+      "version": "4.9.13",
+      "content": "4.9.13\n新增 我的任务测试环境显示\n修改 鲁好杰建议任务详情页提交列表下拉样式"
+    },
+    {
+      "version": "4.9.14",
+      "content": "4.9.14\n解决 任务列表任务重复问题\n新增 任务是否最新代码提示\n修改 任务页面提交列表下拉显示完整commid"
+    },
+    {
+      "version": "4.9.15",
+      "content": "4.9.15\n修改 升级提示框样式\n替换 Review生成方式(代码可以评论)"
+    },
+    {
+      "version": "4.9.16",
+      "content": "4.9.16\n新增 常用代码库置顶\n修改 【保护】替换成\uD83D\uDD12标志"
+    },
+    {
+      "version": "4.10.0",
+      "content": "4.10.0\n新增 【SQL】自动添加use语句\n修改 【发布任务】默认张金柱为上线人\n修改 【发布任务】去掉默认库设置\n修改 【已上线任务】无权限不显示创建保护分支按钮\n优化 一些逻辑"
+    },
+    {
+      "version": "4.10.1",
+      "content": "4.10.1\n优化 支持静默更新"
+    },
+    {
+      "version": "4.10.2",
+      "content": "4.10.2\n解决 修改页获取信息"
+    },
+    {
+      "version": "4.10.3",
+      "content": "4.10.3\n修改 去掉描述自动填写"
+    }
+  ]
+}
