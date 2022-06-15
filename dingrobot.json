@@ -11,10 +11,6 @@
   "update_pre_test_failed_token": "",
   "release_online_token": "",
   "rollback_online_token": "9e72cd34a2a68d01cce5c570b0d53565a900700b6195c5d793dcb163b1d134cb",
-  "notice_list": [
-    "4.9.11\n隐藏了Gitlab Token内容\n\n",
-    "4.9.12\n添加 任务列表显示测试环境\n\n"
-  ],
   "new_notice_list": [
     {
       "version": "4.9.11",
@@ -58,7 +54,7 @@
     },
     {
       "version": "4.10.5",
-      "content": "4.10.5\n插件已转交给 鲁好杰"
+      "content": "4.10.5\n插件已转交给 🔥鲁好杰🔥、🔥沈成博🔥"
     }
   ]
 }
