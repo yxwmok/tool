@@ -2,7 +2,7 @@
 // @icon         http://pic04.babytreeimg.com/img/common/136x136.png
 // @name         GitToolPlus-Gitlab
 // @namespace    http://www.babytree.com/
-// @version      4.10.5
+// @version      4.10.5.1
 // @updateURL    https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
 // @downloadURL  https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
 // @description  Plus gitool!
@@ -179,11 +179,17 @@
         }
 
         // 设置TOKEN
-        if (token == '' || token == null) {
-            var _token = setToken();
-            if (!_token) {
-                alert('未设置将不执行此插件');
-                return;
+        if (token == '' || token == null || token == '3fTdFZiJxsDGPF5bDQpG') {
+            var _token = '';
+            if (confirm('你是测试人员吗？')) {
+                _token = 'pXwcecyenbZcq1Rs8zqH';
+                GM_setValue(gitlabConfig.gitlabTokenKey, _token);
+            } else {
+                _token = setToken();
+                if (!_token) {
+                    alert('未设置将不执行此插件');
+                    return;
+                }
             }
 
             token = _token;
