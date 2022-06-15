@@ -2,9 +2,9 @@
 // @icon         http://pic04.babytreeimg.com/img/common/136x136.png
 // @name         GitToolPlus-Gitlab
 // @namespace    http://www.babytree.com/
-// @version      4.10.5
-// @updateURL    https://gh.api.99988866.xyz/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
-// @downloadURL  https://gh.api.99988866.xyz/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
+// @version      4.10.4
+// @updateURL    https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
+// @downloadURL  https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
 // @description  Plus gitool!
 // @author       caoxinyu
 // @run-at       document-body
@@ -19,7 +19,7 @@
 // @connect      gitlab.babytree-inc.com
 // @connect      oapi.dingtalk.com
 // @connect      alljc.cc
-// @connect      gh.api.99988866.xyz
+// @connect      ghproxy.com
 // ==/UserScript==
 (function () {
     'use strict';
@@ -58,7 +58,7 @@
             '/sql/new_task': true
         },
         userName = '',
-        dingRobotTokenUrl = 'https://gh.api.99988866.xyz/https://raw.githubusercontent.com/yxwmok/tool/main/dingrobot.json',
+        dingRobotTokenUrl = 'https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/dingrobot.json',
         eventUrl = 'https://alljc.cc/index/gitool/event',
         getTaskListUrl = 'https://alljc.cc/index/gitool/lists',
         dingTokenList = {},
