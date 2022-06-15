@@ -2,7 +2,7 @@
 // @icon         http://pic04.babytreeimg.com/img/common/136x136.png
 // @name         GitToolPlus-Gitlab
 // @namespace    http://www.babytree.com/
-// @version      4.10.4
+// @version      4.10.5
 // @updateURL    https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
 // @downloadURL  https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
 // @description  Plus gitool!
