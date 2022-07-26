@@ -2,7 +2,7 @@
 // @icon         http://pic04.babytreeimg.com/img/common/136x136.png
 // @name         GitToolPlus-Gitlab
 // @namespace    http://www.babytree.com/
-// @version      4.10.5.1
+// @version      4.10.5.2
 // @updateURL    https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
 // @downloadURL  https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/GitToolPlus-Gitlab.user.js
 // @description  Plus gitool!
@@ -59,8 +59,8 @@
         },
         userName = '',
         dingRobotTokenUrl = 'https://ghproxy.com/https://raw.githubusercontent.com/yxwmok/tool/main/dingrobot.json',
-        eventUrl = 'https://alljc.cc/index/gitool/event',
-        getTaskListUrl = 'https://alljc.cc/index/gitool/lists',
+        eventUrl = 'https://gitlab.babytree-inc.com/index/gitool/event',
+        getTaskListUrl = 'https://gitlab.babytree-inc.com/index/gitool/lists',
         dingTokenList = {},
         dingUrl = 'https://oapi.dingtalk.com/robot/send?access_token=',
         // gitlab地址
